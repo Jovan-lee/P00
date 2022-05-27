@@ -64,6 +64,30 @@ public class CalculatorTest {
 		int expected=5555;
 		assertEquals(actual,expected);
 	}
+	@Test
+	public final void testMultiple() {
+		//fail("Not yet implemented");
+		int a=11;
+		int b=7;
+		
+		Calculator cal =new Calculator();
+		int actual= cal.multiple(a, b);
+		
+		int expected=77;
+		assertEquals(actual,expected);
+	}
+	@Test
+	public final void testdivide() {
+		//fail("Not yet implemented");
+		int a=88;
+		int b=4;
+		
+		Calculator cal =new Calculator();
+		int actual= cal.divide(a, b);
+		
+		int expected=22;
+		assertEquals(actual,expected);
+	}
 	
 	
 
